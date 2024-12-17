@@ -11,5 +11,7 @@ RUN apt-get upgrade -y
 CMD echo "Hello, World!"
 
 # commands to run for verification
-# docker build -f ./Dockerfile -t softy-pinko:task0 . It creates a Docker image named softy-pinko with the version task0.
-# docker run -it --rm --name softy-pinko-task0 softy-pinko:task0.  It starts a temporary container interactively, and the container is deleted after it stops.
+# docker build -f ./Dockerfile -t softy-pinko:task0 . 
+# /It creates a Docker image named softy-pinko with the version task0.
+# docker run -it --rm --name softy-pinko-task0 softy-pinko:task0 
+# /It starts a temporary container interactively, and the container is deleted after it stops.
